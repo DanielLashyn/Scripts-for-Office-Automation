@@ -20,9 +20,11 @@ In the end this script was able to sort 5,633 files in under 30 seconds. Saving 
 
 
 ## Screen shots
-- The following image shows the unsorted files
+The following image shows the unsorted files:
+![Image of unsorted media files](Photos/File_Organizer_Unsorted.png?raw=True)
 
-- The following image shows the files sorted
+The following image shows the files sorted:
+![Image of unsorted media files](Photos/File_Organizer_Sorted.png?raw=True)
 
 # PDF to CSV
 
