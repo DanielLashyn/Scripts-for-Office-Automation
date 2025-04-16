@@ -1,6 +1,6 @@
 # Table of Contents
 1. [File Organizer](#File-Organizer)
-1. [PDF to CSV](#PDF-to-CSV)
+1. [PDF to XLSX](#PDF-to-XLSX)
 
 # File Organizer
 ## Script
@@ -26,10 +26,10 @@ The following image shows the unsorted files:
 The following image shows the files sorted:
 ![Image of unsorted media files](Photos/File_Organizer_Sorted.png?raw=True)
 
-# PDF to CSV
+# PDF to XLSX
 
 ## Background
-In 2020, I had a client, who was a teacher at the local Highschool, and had a PDF file of student's contact info and wanted it to be in a CSV file. To save time, I created a python script to parse through the PDF and place the corresponding information in the excel file. The parsed information can be broken down into three sections:
+In 2020, I had a client, who was a teacher at the local Highschool, and had a PDF file of student's contact info and wanted it to be in a excel file. To save time, I created a python script to parse through the PDF and place the corresponding information in the excel file. The parsed information can be broken down into three sections:
 - Student info (ID, Last/First/Middle Name, and Cell number)
 - Guardian info 1 (Phone numbers, email)
 - Guardian info 2 (Phone numbers, email)
@@ -38,10 +38,10 @@ In 2020, I had a client, who was a teacher at the local Highschool, and had a PD
 NOTE: The following images were done with 'mock data', due to the senstive nature of the original data.
 
 The following image shows how the pdf file was setup
-![Image of contact info in pdf](Photos/PDF_to_CSV_Contact_PDF.png?raw=True)
+![Image of contact info in pdf](Photos/PDF_to_XLSX_Contact_PDF.png?raw=True)
 
 The following image shows the files sorted:
-![Image of contact info in excel](Photos/PDF_to_CSV_Contact_xlsx.png?raw=True)
+![Image of contact info in excel](Photos/PDF_to_XLSX_Contact_xlsx.png?raw=True)
 ## Packages
 - XlsxWriter 3.2.2: 
     - pip install XlsxWriter
