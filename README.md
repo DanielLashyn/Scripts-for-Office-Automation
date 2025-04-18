@@ -12,11 +12,11 @@
 - pillow_heif 0.18.0
 
 ## Background
-In 2025, I downloaded all the photos from my phone onto the computer. The software I used put all the photos and videos in one folder. To resolve this issue I created a python script to organize all ``` jpg, jpeg, png, HEIC, mov, mp4 and 3gp``` by the metadata ```Date taken```, for when the photo/video was taken. For example if a picture was taken in ```May 4 2019``` that file would be placed in the folder ```2019-05```. 
+In 2025, I downloaded all my phone photos onto the computer. The software I used, to download the media, put all the photos and videos in one folder. To resolve this issue I created a python script to organize all ``` jpg, jpeg, png, HEIC, mov, mp4 and 3gp``` by the metadata ```Date taken```, for when the photo/video was taken. For example if a picture was taken in ```May 4 2019``` that picture would be placed in the folder ```2019-05```. 
 
 Because not all files have the ```Date taken``` metadata (i.e. screenshots), those files were placed in a folder called ```Unknown Date```. 
 
-In the end this script was able to sort 5,633 files in under 30 seconds. Saving hours worth of work manually sorting files.
+In the end this script was able to sort 5,633 files in 15 seconds. Saving hours of manually sorting files.
 
 
 ## Screen shots
@@ -35,7 +35,9 @@ The following image shows the files sorted:
 - XlsxWriter 3.2.2
 
 ## Background
-In 2020, I had a client, who was a teacher at the local Highschool, and had a PDF file of student's contact info and wanted it to be in a excel file. To save time, I created a python script to parse through the PDF and place the corresponding information in the excel file. The parsed information can be broken down into three sections:
+In 2020, I had a client, who was a teacher at the local Highschool, and had a PDF file of student's contact info and wanted it to be in a excel file. This PDF file was 19 pages and containted contact information of the students with their guardians. To save time, I created a python script to parse through the PDF and place the corresponding information in an excel file. 
+
+The parsed information can be broken down into three sections:
 - Student info (ID, Last/First/Middle Name, and Cell number)
 - Guardian info 1 (Phone numbers, email)
 - Guardian info 2 (Phone numbers, email)
